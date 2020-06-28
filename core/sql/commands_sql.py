@@ -11,3 +11,5 @@ class SQL_Config:
     SQL_UPDATE_BT = "UPDATE config_table SET button_text = %s WHERE ID=1"
 class SQL_Refresh:
     SQL = "DELETE FROM users"
+class SQL_List:
+    SQL = "SELECT * FROM users"

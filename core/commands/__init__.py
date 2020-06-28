@@ -1,7 +1,8 @@
 __all__ = ["start",
            "config_bot",
            "result",
-           "refresh"
+           "refresh",
+           "list"
            ]
 
 from core.commands import *

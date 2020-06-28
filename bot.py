@@ -44,6 +44,7 @@ def main():
     FUNCTION(CMH("setbutton", commands.config_bot.update_button_text))
     FUNCTION(CMH("result", commands.result.init))
     FUNCTION(CMH("refresh", commands.refresh.init))
+    FUNCTION(CMH("list", commands.list.init))
     
    
     #CallBackQuery Handler
